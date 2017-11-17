@@ -1,0 +1,276 @@
+h1 {
+	color:blue;
+}
+
+h2 {
+	font-size:14px;
+}
+
+p {
+	color:yellow;
+	font-size:12px;
+	background-color: black;
+}
+
+img {
+	border: 2px solid red;;
+}
+
+.circle1{
+	width:960px;
+	height: 200px;
+	margin: 100px auto;
+	background-color: red;
+	position:relative;
+}
+
+
+.circle2{
+	width:960px;
+	height: 200px;
+	background-color: yellow;
+	display: inline-block;
+}
+body{
+	text-align: center;
+}
+
+.topCircle, .bottomCircle{
+	background-color: white;
+	position: absolute;
+	width: 100%;
+}
+
+.topCircle {
+	top: 0px;
+}
+
+.bottomCircle {
+	bottom: 0px;
+}
+
+.r1,.r2,.r3,.r4{
+	background-color: red;
+	height:2px;
+}
+
+.r1{
+	margin: 0 4px;
+}
+
+.r2{
+	margin: 0 3px;
+}
+
+.r3{
+	margin: 0 2px;
+}
+
+.r4{
+	margin: 0 1px;
+}
+
+.container1 {
+	height: 400px;
+	margin: 100px 100px;
+	background-color: rebeccapurple;
+}
+
+.container1 .top, .container1 .bottom{
+	width: 100%;
+}
+
+.container1 .top{
+	height: 300px;
+}
+
+.container1 .bottom{
+	height: 100px;
+	background-color: yellow;
+}
+
+.container1 .top .menu{
+	width: 200px;
+	background-color: red;
+	float:left;
+}
+
+.container1 .top .menu,.container1 .top .content{
+	height: 100%;
+}
+
+.container1 .top .content{
+	background-color: blue;
+	margin-left: 200px;
+}
+
+.container1 span{
+	color:yellow;
+	font-size:12px;
+}
+
+
+.container2{
+	  /*建立弹性框 */
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+
+	display: flex;
+	flex-direction: column;
+
+	height: 400px;
+	margin: 100px 100px;
+	background-color: rebeccapurple;
+
+}
+
+.container2 .top, .container2 .bottom{
+	width:100%;
+}
+
+.container2 .top{
+	/*建立弹性框 */
+	-webkit-flex: 1;
+	flex: 1;
+
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.container2 .bottom{
+	/*建立弹性框 */
+	height: 100px;
+	background-color: yellow;
+}
+
+.container2 .top .menu, .container2 .top .content{
+	height: 100%;
+}
+
+.container2 .top .menu{
+	width:200px;
+	background-color: red;
+
+}
+
+.container2 .top .content{
+	-webkit-flex: 1;
+	flex: 1;
+	background-color: blue;
+
+}
+
+
+.container3 {
+	height: 400px;
+	margin: 100px 100px;
+	background-color: rebeccapurple;
+}
+
+.container3 .top{
+	height: 300px;
+}
+
+.container3 .top .left,.container3 .top .content,.container3 .top .right{
+	height: 100%;
+}
+
+.container3 .top .left{
+	width: 200px;
+	float:left;
+	background-color: red;
+}
+
+.container3 .top .right{
+	width: 200px;
+	float:right;
+	background-color: orange;
+}
+
+.container3 .top .content{
+	margin: 0 200px;
+	background-color: blue;
+}
+
+.container3 .bottom{
+	height: 100px;
+	background-color: yellow;
+}
+
+.container4 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+
+	flex-direction: column;
+	height: 400px;
+	margin: 100px 100px;
+	background-color: rebeccapurple;
+
+}
+
+.container4 .top{
+	-webkit-flex:1;
+	flex:1;
+	height: 100%;
+
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+
+	flex-direction: row;
+}
+
+.container4 .top .left, container4 .top .content, container4 .top .right{
+	height: 100%;
+}
+
+.container4 .top .left{
+	width: 200px;
+	background-color: red;
+}
+
+.container4 .top .content{
+	-webkit-flex:1;
+	flex:1;
+	background-color: blue;
+}
+
+.container4 .top .right{
+	width: 200px;
+	background-color: orange;
+}
+
+
+
+.container4 .bottom{
+	height:100px;
+	background-color: yellow;
+}
+
+.container5 {
+
+	height: 400px;
+	margin: 100px 100px;
+	background-color: red;
+
+}
+
+
+.container5 div{
+	width:50px;
+	height:50px;
+
+	margin: 10px 10px;
+	background-color: blue;
+
+	float:left;
+}
+
+.container5::after{
+	clear:both;
+}
+
