@@ -1,29 +1,58 @@
-
-
-.container6 {
-	height: 400px;
-	margin: 100px 100px;
-	background-color: rebeccapurple;
+html,body {
+	height:100%;
 }
 
-.container6 .top{
-	height: 300px;
+* { padding:0;
+	margin:0;
+	color:#fff;
+	text-decoration:none;
+	list-style:none;
+	font-family:"微软雅黑"
 }
 
-.container6 .top .content{
-	height: 300px;
+.aside{
+	background:#f00;
+	width:170px;
 	float:left;
+	height:300px;
 }
 
-.container6 .top .content{
-	width:100%;
-
+.main{
+	background:#090;
+	height:100%;
+	overflow: hidden;
 }
 
-.container6 .top .content .inner{
-	background-color: blue;
-	margin:0 200px;
-	height: 100%;
+.outer{
+	width:300px;
+	border:1px solid #666;
+	padding:10px;
+	overflow: hidden;
 }
-
-
+.innerLeft{
+	height:100px;
+	width:100px;
+	float:left;
+	background:#f00;
+}
+.innerRight{
+	height:100px;
+	width:100px;
+	float:right;
+	background:#090;
+}
+.mg {
+	overflow:hidden;
+}
+.rowone{
+	background:#f00;
+	height:100px;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.rowtow{
+	background:#090;
+	height:100px;
+	margin-top:20px;
+	position:relative;
+}
