@@ -14,24 +14,49 @@
 	/*margin-left: 220px;*/
 /*}*/
 
-#container{
-	background-color: red;
-	width:600px;
-	height:400px;
-	font-size:0;
+.wrap2{
+	width:320px;
+	border:dashed 1px orange;
 }
 
-#left, #content{
-	height: 100%;
-	display: inline-block;
+.wrap2 .inner{
+	overflow:hidden;
+	margin-right:-10px;
 }
-#left {
+
+.wrap2 .item{
+	float:left;
+	width:100px;
+	height:100px;
+	margin:10px 10px 10px 0;
+	background:blue;
+}
+
+
+.main{
+	float: left;
+	width: 100%;
+
+}
+.main .main-content{
+	margin: 0 210px;
+	background-color: rgba(33, 114, 214, 0.8);
+	height: 200px
+}
+.left{
 	width: 200px;
-	background-color: green;
-}
-
-#content {
-	width: 400px;
-	background-color: orange;
+	float: left;
+	background-color: rgba(255, 82, 0, 0.8);
+	margin-left: -100%;
+	height: 200px
 
 }
+.right{
+	width: 200px;
+	height: 200px;
+	margin-left: -200px;
+	float: left;
+	background-color: rgba(90, 243, 151, 0.8);
+}
+
+
